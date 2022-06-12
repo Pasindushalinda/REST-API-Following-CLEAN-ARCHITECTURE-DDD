@@ -1,0 +1,7 @@
+POST https://localhost:7151/auth/login
+Content-Type: application/json
+
+{
+    "email":"pasindushalinda09@outlool.com",
+    "password":"123"
+}
