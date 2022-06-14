@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinner.Domain", "Dinner.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinner.Infrastructure", "Dinner.Infrastructure\Dinner.Infrastructure.csproj", "{B9FA1D01-D23D-43F5-9E23-371396F8A1C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinner.Application", "Dinner.Application\Dinner.Application.csproj", "{2348EC8C-5652-41D2-AE4D-77CD1120743A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B9FA1D01-D23D-43F5-9E23-371396F8A1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9FA1D01-D23D-43F5-9E23-371396F8A1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9FA1D01-D23D-43F5-9E23-371396F8A1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2348EC8C-5652-41D2-AE4D-77CD1120743A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2348EC8C-5652-41D2-AE4D-77CD1120743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2348EC8C-5652-41D2-AE4D-77CD1120743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2348EC8C-5652-41D2-AE4D-77CD1120743A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
