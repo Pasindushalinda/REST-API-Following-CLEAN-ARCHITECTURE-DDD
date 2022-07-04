@@ -6,14 +6,14 @@ namespace Dinner.Api.Controllers;
 
 [ApiController]
 [Route("auth")]
-public class AthenticationController : ControllerBase
+public class AuthenticationController : ControllerBase
 {
     private readonly IAuthenticationService _authenticationService;
-    public AthenticationController(IAuthenticationService authenticationService)
+    public AuthenticationController(IAuthenticationService authenticationService)
     {
         _authenticationService = authenticationService;
-
     }
+
     [HttpPost("register")]
     public IActionResult Register(RegisterRequest request)
     {

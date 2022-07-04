@@ -17,7 +17,6 @@ public class JwtTokenGenerator : IJwtTokenGenerator
     {
         _jwtSettings = jwtOptions.Value;
         _dateTimeProvider = dateTimeProvider;
-
     }
     public string GenerateToken(User user)
     {

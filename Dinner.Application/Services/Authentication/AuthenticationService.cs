@@ -1,3 +1,4 @@
+using Dinner.Application.Common.Errors;
 using Dinner.Application.Common.Interfaces.Authentication;
 using Dinner.Application.Common.Interfaces.Persistence;
 using Dinner.Domain.Entities;
@@ -14,7 +15,6 @@ public class AuthenticationService : IAuthenticationService
     {
         _userRepository = userRepository;
         _tokenGenerator = tokenGenerator;
-
     }
     public AuthenticationResult Login(string email, string password)
     {
@@ -39,7 +39,7 @@ public class AuthenticationService : IAuthenticationService
         //1.check if user already exist
         if (_userRepository.GetUserByEmail(email) is not null)
         {
-            throw new Exception("User with given email already exists.");
+            throw new DuplicateEmailException();
         }
 
         //2.create user(Generate unique id)
