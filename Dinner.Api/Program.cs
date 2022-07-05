@@ -1,4 +1,4 @@
-using Dinner.Api.Errors;
+using Dinner.Api.Common.Errors;
 using Dinner.Application;
 using Dinner.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
