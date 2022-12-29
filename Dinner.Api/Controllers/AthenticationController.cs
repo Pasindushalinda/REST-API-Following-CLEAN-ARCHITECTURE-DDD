@@ -1,6 +1,6 @@
-using Dinner.Application.Commands.Common;
-using Dinner.Application.Commands.Login;
-using Dinner.Application.Commands.Register;
+using Dinner.Application.Authentication.Commands.Register;
+using Dinner.Application.Authentication.Common;
+using Dinner.Application.Authentication.Queries.Login;
 using Dinner.Contracts.Authentication;
 using ErrorOr;
 using MapsterMapper;

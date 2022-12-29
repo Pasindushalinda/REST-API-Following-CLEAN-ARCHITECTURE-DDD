@@ -1,5 +1,7 @@
+--run project
 dotnet watch run --project .\Dinner.Api\
 
+--Storing secrets during development
 dotnet user-secrets init --project .\Dinner.Api\
 
 dotnet user-secrets set  --project .\Dinner.Api\ "JwtSettings:Secret" "super-secret-key-from-user-secrets"

@@ -4,9 +4,9 @@ using Dinner.Application.Common.Interfaces.Persistence;
 using Dinner.Domain.Entities;
 using ErrorOr;
 using MediatR;
-using Dinner.Application.Commands.Common;
+using Dinner.Application.Authentication.Common;
 
-namespace Dinner.Application.Commands.Register
+namespace Dinner.Application.Authentication.Commands.Register
 {
     public class RegisterCommandHandler : IRequestHandler<RegisterCommand, ErrorOr<AuthenticationResult>>
     {

@@ -4,9 +4,9 @@ using Dinner.Domain.Entities;
 using ErrorOr;
 using MediatR;
 using Dinner.Domain.Common.Errors;
-using Dinner.Application.Commands.Common;
+using Dinner.Application.Authentication.Common;
 
-namespace Dinner.Application.Commands.Login;
+namespace Dinner.Application.Authentication.Queries.Login;
 public class LoginQueryHandler : IRequestHandler<LoginQuery, ErrorOr<AuthenticationResult>>
 {
     private readonly IJwtTokenGenerator _tokenGenerator;

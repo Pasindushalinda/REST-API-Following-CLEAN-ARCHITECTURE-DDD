@@ -1,8 +1,8 @@
-using Dinner.Application.Commands.Common;
+using Dinner.Application.Authentication.Common;
 using ErrorOr;
 using MediatR;
 
-namespace Dinner.Application.Commands.Register;
+namespace Dinner.Application.Authentication.Commands.Register;
 
 public record RegisterCommand(
 string FirstName,
